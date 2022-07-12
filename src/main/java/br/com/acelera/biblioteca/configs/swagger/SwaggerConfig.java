@@ -18,6 +18,6 @@ public class SwaggerConfig {
 	@Bean
 	OpenAPI bibliotecaOpenAPI() {
 		return new OpenAPI()
-				.info(new Info().title("Biblioteca API").description("Projeto de biblioteca").version("v0.0.1"));
+				.info(new Info().title("Biblioteca API").description("Projeto de biblioteca").version("v1.0.1"));
 	}
 }
